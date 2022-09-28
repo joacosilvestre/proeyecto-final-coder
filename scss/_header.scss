@@ -1,0 +1,42 @@
+header {
+    .logo-header {
+        height: 300px;
+        width: 300px;
+        padding-top: 75px;
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+
+    .titulo-header {
+        font-size: 50px;
+        font-family: exorcet;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2800, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        background-color: white;
+        border-radius: 5px;
+    }
+
+    .navbar-nav {
+
+        li {
+            margin: 30px 15px 30px 15px;
+            font-family: exorcet;
+
+            a {
+                color: white;
+                transition: all 500ms ease;
+                border-bottom: 5px solid transparent;
+
+                &:hover {
+                    color: darkblue;
+                    border-bottom: 5px solid;
+                }
+            }
+        }
+    }
+}

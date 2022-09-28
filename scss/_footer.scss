@@ -1,0 +1,13 @@
+footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    .footer {
+        @include main;
+    }
+
+    h3 {
+        color: black;
+        font-family: exorcet;
+    }
+}

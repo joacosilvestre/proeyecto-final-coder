@@ -1,0 +1,134 @@
+// etiquetas generales //
+
+p {
+    color: map-get($color, "negro");
+}
+
+h1 {
+    @include titulos;
+    text-align: center;
+}
+
+h2 {
+    @include titulos;
+    font-size: 30px;
+
+    img {
+        padding-right: 20px;
+    }
+}
+
+h3 {
+    @include titulos;
+}
+
+h4 {
+    @include titulos;
+}
+
+// main index //
+
+.main-index {
+    @include main;
+
+    .titulo-index {
+        @include titulos;
+        text-align: center;
+    }
+}
+
+// main guia //
+.main-guia {
+    @include main;
+
+    .ul-guia {
+        li {
+            a {
+                @include enlazes;
+            }
+        }
+    }
+
+    .titulo-actos {
+        margin: 20px 0px;
+    }
+}
+
+// main clase //
+.main-clases {
+    @include main;
+
+    .inicio-clases {
+
+        .ul-clases {
+            li {
+                padding: .5rem 1rem;
+                color: map-get($color, "negro");
+
+                img {
+                    padding: 5px;
+                }
+
+                a {
+                    margin: 0 !important;
+                    padding: 0 !important;
+                    @include enlazes;
+                }
+            }
+        }
+    }
+
+    section {
+        article {
+            .listas-clases {
+                display: block;
+                color: map-get($color, "negro");
+                text-decoration: none;
+
+                li {
+                    img {
+                        padding: 10px 10px;
+                    }
+                }
+            }
+
+            .lista-objetos {
+                color: map-get($color, "negro");
+            }
+
+            .imagen-clases {
+                float: left;
+            }
+        }
+    }
+}
+
+// main mercenarios //
+.main-mercenarios {
+    @include main;
+
+    .ul-mercenarios {
+        color: map-get($color, "negro");
+
+        li {
+            a {
+                @include enlazes;
+            }
+
+            img {
+                margin: 5px 5px;
+            }
+        }
+    }
+}
+
+// main contacto //
+.main-contacto {
+    @include main;
+
+    form {
+        textarea {
+            @include textarea
+        }
+    }
+}

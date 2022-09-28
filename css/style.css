@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: exorcet;
+  src: url(../css/fonts/films.EXH_____.ttf);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(../assets/media/woodtable.webp);
+  height: 100%;
+}
+
+header .logo-header {
+  height: 300px;
+  width: 300px;
+  padding-top: 75px;
+}
+header .logo-header img {
+  max-width: 100%;
+  max-height: 100%;
+}
+header .titulo-header {
+  font-size: 50px;
+  font-family: exorcet;
+}
+header .navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2800, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-color: white;
+  border-radius: 5px;
+}
+header .navbar-nav li {
+  margin: 30px 15px 30px 15px;
+  font-family: exorcet;
+}
+header .navbar-nav li a {
+  color: white;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  border-bottom: 5px solid transparent;
+}
+header .navbar-nav li a:hover {
+  color: darkblue;
+  border-bottom: 5px solid;
+}
+
+p {
+  color: black;
+}
+
+h1 {
+  color: black;
+  font-family: exorcet;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  font-family: exorcet;
+  font-size: 30px;
+}
+h2 img {
+  padding-right: 20px;
+}
+
+h3 {
+  color: black;
+  font-family: exorcet;
+}
+
+h4 {
+  color: black;
+  font-family: exorcet;
+}
+
+.main-index {
+  border: 50px solid transparent;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  -o-border-image: url(../assets/media/marcosecciones.webp) 8% round;
+     border-image: url(../assets/media/marcosecciones.webp) 8% round;
+  background-image: url(../assets/media/fondosecciones.webp);
+}
+.main-index .titulo-index {
+  color: black;
+  font-family: exorcet;
+  text-align: center;
+}
+
+.main-guia {
+  border: 50px solid transparent;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  -o-border-image: url(../assets/media/marcosecciones.webp) 8% round;
+     border-image: url(../assets/media/marcosecciones.webp) 8% round;
+  background-image: url(../assets/media/fondosecciones.webp);
+}
+.main-guia .ul-guia li a {
+  color: darkblue;
+  font-family: exorcet;
+  text-decoration: none;
+}
+.main-guia .titulo-actos {
+  margin: 20px 0px;
+}
+
+.main-clases {
+  border: 50px solid transparent;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  -o-border-image: url(../assets/media/marcosecciones.webp) 8% round;
+     border-image: url(../assets/media/marcosecciones.webp) 8% round;
+  background-image: url(../assets/media/fondosecciones.webp);
+}
+.main-clases .inicio-clases .ul-clases li {
+  padding: 0.5rem 1rem;
+  color: black;
+}
+.main-clases .inicio-clases .ul-clases li img {
+  padding: 5px;
+}
+.main-clases .inicio-clases .ul-clases li a {
+  margin: 0 !important;
+  padding: 0 !important;
+  color: darkblue;
+  font-family: exorcet;
+  text-decoration: none;
+}
+.main-clases section article .listas-clases {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+.main-clases section article .listas-clases li img {
+  padding: 10px 10px;
+}
+.main-clases section article .lista-objetos {
+  color: black;
+}
+.main-clases section article .imagen-clases {
+  float: left;
+}
+
+.main-mercenarios {
+  border: 50px solid transparent;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  -o-border-image: url(../assets/media/marcosecciones.webp) 8% round;
+     border-image: url(../assets/media/marcosecciones.webp) 8% round;
+  background-image: url(../assets/media/fondosecciones.webp);
+}
+.main-mercenarios .ul-mercenarios {
+  color: black;
+}
+.main-mercenarios .ul-mercenarios li a {
+  color: darkblue;
+  font-family: exorcet;
+  text-decoration: none;
+}
+.main-mercenarios .ul-mercenarios li img {
+  margin: 5px 5px;
+}
+
+.main-contacto {
+  border: 50px solid transparent;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  -o-border-image: url(../assets/media/marcosecciones.webp) 8% round;
+     border-image: url(../assets/media/marcosecciones.webp) 8% round;
+  background-image: url(../assets/media/fondosecciones.webp);
+}
+.main-contacto form textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+footer .footer {
+  border: 50px solid transparent;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  -o-border-image: url(../assets/media/marcosecciones.webp) 8% round;
+     border-image: url(../assets/media/marcosecciones.webp) 8% round;
+  background-image: url(../assets/media/fondosecciones.webp);
+}
+footer h3 {
+  color: black;
+  font-family: exorcet;
+}

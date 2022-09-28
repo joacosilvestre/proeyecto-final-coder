@@ -1,0 +1,28 @@
+@import "./variables";
+
+@mixin main {
+    border: 50px solid transparent;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image: url(../assets/media/marcosecciones.webp) 8% round;
+    background-image: url(../assets/media/fondosecciones.webp);
+}
+
+@mixin titulos {
+    color: map-get($color, "negro");
+    font-family: exorcet;
+}
+
+@mixin enlazes {
+    color: map-get($color, "enlazes");
+    font-family: exorcet;
+    text-decoration: none;
+}
+
+@mixin textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}

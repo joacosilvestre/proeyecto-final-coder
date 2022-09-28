@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: exorcet;
+    src: url(../css/fonts/films.EXH_____.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../assets/media/woodtable.webp);
+    height: 100%;
+}
+
+@import "./variables";
+@import "./mixins";
+@import "./header";
+@import "./main";
+@import "./footer";
+
