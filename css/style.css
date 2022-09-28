@@ -144,8 +144,8 @@ h4 {
   color: black;
   text-decoration: none;
 }
-.main-clases section article .listas-clases li img {
-  padding: 10px 10px;
+.main-clases section article .listas-clases img {
+  padding: 5px 5px;
 }
 .main-clases section article .lista-objetos {
   color: black;
