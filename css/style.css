@@ -30,6 +30,7 @@ header .logo-header img {
 header .titulo-header {
   font-size: 50px;
   font-family: exorcet;
+  color: #dee2e6;
 }
 header .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2800, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -41,13 +42,13 @@ header .navbar-nav li {
   font-family: exorcet;
 }
 header .navbar-nav li a {
-  color: white;
+  color: #dee2e6;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   border-bottom: 5px solid transparent;
 }
 header .navbar-nav li a:hover {
-  color: darkblue;
+  color: #8990a2;
   border-bottom: 5px solid;
 }
 
@@ -69,15 +70,48 @@ h2 {
 h2 img {
   padding-right: 20px;
 }
+@media screen and (max-width: 992px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 15px;
+  }
+}
 
 h3 {
   color: black;
   font-family: exorcet;
 }
+@media screen and (max-width: 992px) {
+  h3 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  h3 {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  h3 {
+    font-size: 12px;
+    text-align: center;
+  }
+}
 
 h4 {
   color: black;
   font-family: exorcet;
+}
+@media screen and (max-width: 768px) {
+  h4 {
+    font-size: 15px;
+  }
 }
 
 .main-index {
@@ -107,12 +141,39 @@ h4 {
   background-image: url(../assets/media/fondosecciones.webp);
 }
 .main-guia .ul-guia li a {
-  color: darkblue;
+  color: #8990a2;
   font-family: exorcet;
   text-decoration: none;
 }
 .main-guia .titulo-actos {
   margin: 20px 0px;
+}
+@media screen and (max-width: 992px) {
+  .main-guia .titulo-actos img {
+    width: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-guia .titulo-actos img {
+    width: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main-guia .titulo-actos img {
+    width: 30px;
+  }
+  .main-guia .titulo-actos .actos-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 10px;
+  }
 }
 
 .main-clases {
@@ -135,7 +196,7 @@ h4 {
 .main-clases .inicio-clases .ul-clases li a {
   margin: 0 !important;
   padding: 0 !important;
-  color: darkblue;
+  color: #8990a2;
   font-family: exorcet;
   text-decoration: none;
 }
@@ -147,11 +208,40 @@ h4 {
 .main-clases section article .listas-clases img {
   padding: 5px 5px;
 }
+@media screen and (max-width: 576px) {
+  .main-clases section article .listas-clases img {
+    width: 40px;
+    float: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main-clases section article .listas-clases {
+    display: block;
+    color: black;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-clases section article .listas-clases {
+    display: block;
+    color: black;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main-clases section article .listas-clases {
+    display: block;
+    color: black;
+  }
+}
 .main-clases section article .lista-objetos {
   color: black;
 }
 .main-clases section article .imagen-clases {
   float: left;
+}
+@media screen and (max-width: 576px) {
+  .main-clases section article .imagen-clases {
+    width: 50%;
+  }
 }
 
 .main-mercenarios {
@@ -168,12 +258,22 @@ h4 {
   color: black;
 }
 .main-mercenarios .ul-mercenarios li a {
-  color: darkblue;
+  color: #8990a2;
   font-family: exorcet;
   text-decoration: none;
 }
 .main-mercenarios .ul-mercenarios li img {
   margin: 5px 5px;
+}
+@media screen and (max-width: 768px) {
+  .main-mercenarios .ul-mercenarios li {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main-mercenarios .ul-mercenarios li {
+    text-align: center;
+  }
 }
 
 .main-contacto {

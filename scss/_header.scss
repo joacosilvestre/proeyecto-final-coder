@@ -13,6 +13,7 @@ header {
     .titulo-header {
         font-size: 50px;
         font-family: exorcet;
+        color: map-get($color , "hueso");
     }
 
     .navbar-light .navbar-toggler-icon {
@@ -28,12 +29,12 @@ header {
             font-family: exorcet;
 
             a {
-                color: white;
+                color: map-get($color , "hueso");
                 transition: all 500ms ease;
                 border-bottom: 5px solid transparent;
 
                 &:hover {
-                    color: darkblue;
+                    color: map-get($color , "enlazes");
                     border-bottom: 5px solid;
                 }
             }

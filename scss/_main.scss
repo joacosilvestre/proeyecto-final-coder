@@ -16,18 +16,44 @@ h2 {
     img {
         padding-right: 20px;
     }
+
+    @include medidas() {
+        font-size: 20px;
+    }
+
+    @include medidas(768px) {
+        font-size: 15px;
+    }
 }
 
 h3 {
     @include titulos;
+
+    @include medidas() {
+        font-size: 20px;
+    }
+
+    @include medidas(768px) {
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    @include medidas(576px) {
+        font-size: 12px;
+        text-align: center;
+    }
 }
 
 h4 {
     @include titulos;
+
+    @include medidas(768px) {
+        font-size: 15px;
+    }
 }
 
 // main index //
-
 .main-index {
     @include main;
 
@@ -51,6 +77,31 @@ h4 {
 
     .titulo-actos {
         margin: 20px 0px;
+
+        @include medidas() {
+            img {
+                width: 30px;
+            }
+        }
+
+        @include medidas(768px) {
+            img {
+                width: 20px;
+            }
+        }
+
+        @include medidas (576px) {
+            img {
+                width: 30px;
+            }
+
+            .actos-img {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-bottom: 10px;
+            }
+        }
     }
 }
 
@@ -59,7 +110,6 @@ h4 {
     @include main;
 
     .inicio-clases {
-
         .ul-clases {
             li {
                 padding: .5rem 1rem;
@@ -87,6 +137,26 @@ h4 {
 
                 img {
                     padding: 5px 5px;
+
+                    @include medidas(576px) {
+                        width: 40px;
+                        float: none;
+                    }
+                }
+
+                @include medidas() {
+                    display: block;
+                    color: map-get($color, "negro");
+                }
+
+                @include medidas(768px) {
+                    display: block;
+                    color: map-get($color, "negro");
+                }
+
+                @include medidas(576px) {
+                    display: block;
+                    color: map-get($color, "negro");
                 }
             }
 
@@ -96,6 +166,10 @@ h4 {
 
             .imagen-clases {
                 float: left;
+
+                @include medidas(576px) {
+                    width: 50%;
+                }
             }
         }
     }
@@ -115,6 +189,14 @@ h4 {
 
             img {
                 margin: 5px 5px;
+            }
+
+            @include medidas(768px) {
+                text-align: center;
+            }
+
+            @include medidas(576px) {
+                text-align: center;
             }
         }
     }

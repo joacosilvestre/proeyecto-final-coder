@@ -26,3 +26,9 @@
     max-height: 200px;
     max-width: 100%;
 }
+
+@mixin medidas ($medida : 992px) {
+    @media screen and (max-width:$medida) {
+        @content;
+    }
+}
