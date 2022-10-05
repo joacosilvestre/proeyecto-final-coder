@@ -32,24 +32,45 @@ header .titulo-header {
   font-family: exorcet;
   color: #dee2e6;
 }
-header .navbar-light .navbar-toggler-icon {
+
+.navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2800, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   background-color: white;
   border-radius: 5px;
 }
-header .navbar-nav li {
-  margin: 30px 15px 30px 15px;
+
+.navbar-nav {
+  border: 50px solid transparent;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  -o-border-image: url(../assets/media/marcosecciones.webp) 8% round;
+     border-image: url(../assets/media/marcosecciones.webp) 8% round;
+  background-image: url(../assets/media/fondosecciones.webp);
+}
+.navbar-nav li {
+  margin: 0px 15px;
   font-family: exorcet;
 }
-header .navbar-nav li a {
+.navbar-nav li a {
   color: #dee2e6;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   border-bottom: 5px solid transparent;
 }
-header .navbar-nav li a:hover {
-  color: #8990a2;
+.navbar-nav li a:hover {
+  color: #616161;
   border-bottom: 5px solid;
+}
+
+.dropdown-menu {
+  text-decoration: none;
+  background-image: url(../assets/media/fondosecciones.webp) !important;
+}
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu .dropdown-item:hover {
+  background-color: transparent !important;
 }
 
 p {
@@ -141,7 +162,7 @@ h4 {
   background-image: url(../assets/media/fondosecciones.webp);
 }
 .main-guia .ul-guia li a {
-  color: #8990a2;
+  color: #616161;
   font-family: exorcet;
   text-decoration: none;
 }
@@ -196,7 +217,7 @@ h4 {
 .main-clases .inicio-clases .ul-clases li a {
   margin: 0 !important;
   padding: 0 !important;
-  color: #8990a2;
+  color: #616161;
   font-family: exorcet;
   text-decoration: none;
 }
@@ -258,7 +279,7 @@ h4 {
   color: black;
 }
 .main-mercenarios .ul-mercenarios li a {
-  color: #8990a2;
+  color: #616161;
   font-family: exorcet;
   text-decoration: none;
 }
@@ -305,6 +326,13 @@ footer .footer {
   -o-border-image: url(../assets/media/marcosecciones.webp) 8% round;
      border-image: url(../assets/media/marcosecciones.webp) 8% round;
   background-image: url(../assets/media/fondosecciones.webp);
+}
+footer .footer a {
+  font-family: exorcet;
+  color: #dee2e6;
+}
+footer .footer a:hover {
+  color: #616161;
 }
 footer h3 {
   color: black;

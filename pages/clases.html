@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Clases de Diablo 2, aqui encontraras una guia relacionada con todas las clases de Diablo 2 con sus respectivas habildiades y objetos exclusivos, incluyendo las nuevas clases incluidas en LoD.">
-    <meta name="keywords" content="">
-    <meta name="icon">
-    <meta name="copyright" content="">
+    <meta name="keywords"
+        content="DIABLO, DIABLO 2, BLIZZARD, WIKI, GUIA, CLASES, MERCENARIOS, ACTOS, HECHICERA, PALADIN, NIGROMANTE, BARBARO, AMAZONA, ASESINA, DRUIDA, MISIONES">
+    <meta name="copyright" content="https://diablo2.blizzard.com/es-es/">
+    <link rel="icon" href="../assets/media/LOGO.jpg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -31,34 +32,79 @@
                     Diablo 2 Wiki
                 </p>
             </div>
-            <!--barra de navegacion y menu hamburguesa-->
-            <div>
-                <nav class="navbar navbar-expand-md">
-                    <div class="col-12">
-                        <button type="button" class="navbar-toggler navbar-light col-12" data-bs-toggle="collapse"
-                            data-bs-target="#MenuNavegacion">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div id="MenuNavegacion" class="collapse navbar-collapse text-center">
-                            <ul class="navbar-nav mx-auto">
-                                <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
-                                <li class="nav-item"><a class="nav-link" href="../pages/guia.html">Guia</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Clases</a></li>
-                                <li class="nav-item"><a class="nav-link"
-                                        href="../pages/mercenarios.html">Mercenarios</a>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="../pages/contacto.html">Contacto</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
         </header>
+
+        <!--barra de navegacion y menu hamburguesa-->
+        <div class="sticky-top col-12">
+            <nav class="navbar navbar-expand-md">
+                <div class="col-12">
+                    <button type="button" class="navbar-toggler navbar-light sticky-top" data-bs-toggle="collapse"
+                        data-bs-target="#MenuNavegacion">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="MenuNavegacion" class="collapse navbar-collapse text-center">
+                        <ul class="navbar-nav navbar-nav-scroll mx-auto d-flex aling-items-center justify-content-center"
+                            id="navbarScroll">
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Guia
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                    <li><a class="dropdown-item" href="../pages/guia.html#">Inicio</a></li>
+                                    <li><a class="dropdown-item" href="../pages/guia.html#acto1">Acto 1</a></li>
+                                    <li><a class="dropdown-item" href="../pages/guia.html#acto2">Acto 2</a></li>
+                                    <li><a class="dropdown-item" href="../pages/guia.html#acto3">Acto 3</a></li>
+                                    <li><a class="dropdown-item" href="../pages/guia.html#acto4">Acto 4</a></li>
+                                    <li><a class="dropdown-item" href="../pages/guia.html#acto5">Acto 5</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Clases
+                                </a>
+                                <ul class="dropdown-menu bg-primary" aria-labelledby="navbarScrollingDropdown">
+                                    <li><a class="dropdown-item" href="../pages/clases.html#">Inicio</a></li>
+                                    <li><a class="dropdown-item" href="../pages/clases.html#barb">Barbaro</a></li>
+                                    <li><a class="dropdown-item" href="../pages/clases.html#nigro">Nigromante</a></li>
+                                    <li><a class="dropdown-item" href="../pages/clases.html#amaz">Amazona</a></li>
+                                    <li><a class="dropdown-item" href="../pages/clases.html#pala">Paladin</a></li>
+                                    <li><a class="dropdown-item" href="../pages/clases.html#hechi">Hechicera</a></li>
+                                    <li><a class="dropdown-item" href="../pages/clases.html#ase">Asesina</a></li>
+                                    <li><a class="dropdown-item" href="../pages/clases.html#druid">Druida</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Mercenarios
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                    <li><a class="dropdown-item"
+                                            href="../pages/mercenarios.html#merc-caract">Caracteristicas</a></li>
+                                    <li><a class="dropdown-item" href="../pages/mercenarios.html#merc-act1">Acto 1</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../pages/mercenarios.html#merc-act2">Acto 2</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../pages/mercenarios.html#merc-act3">Acto 3</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../pages/mercenarios.html#merc-act5">Acto 5</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="../pages/contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
 
         <div class="container">
             <main class="main-clases">
                 <!--section inicial-->
-                <section class="row col-12 inicio-clases">
+                <section class="row col-12 inicio-clases" id="init">
                     <h1 id="class">Clases</h1>
                     <hr>
                     <!--barra de navegacion interna-->

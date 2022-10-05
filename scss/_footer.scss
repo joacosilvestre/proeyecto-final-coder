@@ -4,6 +4,15 @@ footer {
 
     .footer {
         @include main;
+
+        a {
+            font-family: exorcet;
+            color: map-get($color, "hueso");
+
+            &:hover {
+                color: map-get($color, "enlazes");
+            }
+        }
     }
 
     h3 {
