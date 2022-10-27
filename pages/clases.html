@@ -21,7 +21,7 @@
 
 <body>
     <!-- div contenedora del layout -->
-    <div class="container animate__animated animate__backInDown">
+    <div class="container">
         <header class="row">
             <div class=" col-12 mx-auto d-block logo-header">
                 <img class="mx-auto d-block" src="../assets/media/LOGO PRINCIPAL.png" alt="Logo de la pagina">
@@ -32,74 +32,80 @@
                     Diablo 2 Wiki
                 </p>
             </div>
-        </header>
 
-        <!--barra de navegacion y menu hamburguesa-->
-        <div class="sticky-top col-12">
-            <nav class="navbar navbar-expand-md">
-                <div class="col-12">
-                    <button type="button" class="navbar-toggler navbar-light sticky-top" data-bs-toggle="collapse"
-                        data-bs-target="#MenuNavegacion">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div id="MenuNavegacion" class="collapse navbar-collapse text-center">
-                        <ul class="navbar-nav navbar-nav-scroll mx-auto d-flex aling-items-center justify-content-center"
-                            id="navbarScroll">
-                            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Guia
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                    <li><a class="dropdown-item" href="../pages/guia.html#">Inicio</a></li>
-                                    <li><a class="dropdown-item" href="../pages/guia.html#acto1">Acto 1</a></li>
-                                    <li><a class="dropdown-item" href="../pages/guia.html#acto2">Acto 2</a></li>
-                                    <li><a class="dropdown-item" href="../pages/guia.html#acto3">Acto 3</a></li>
-                                    <li><a class="dropdown-item" href="../pages/guia.html#acto4">Acto 4</a></li>
-                                    <li><a class="dropdown-item" href="../pages/guia.html#acto5">Acto 5</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Clases
-                                </a>
-                                <ul class="dropdown-menu bg-primary" aria-labelledby="navbarScrollingDropdown">
-                                    <li><a class="dropdown-item" href="../pages/clases.html#">Inicio</a></li>
-                                    <li><a class="dropdown-item" href="../pages/clases.html#barb">Barbaro</a></li>
-                                    <li><a class="dropdown-item" href="../pages/clases.html#nigro">Nigromante</a></li>
-                                    <li><a class="dropdown-item" href="../pages/clases.html#amaz">Amazona</a></li>
-                                    <li><a class="dropdown-item" href="../pages/clases.html#pala">Paladin</a></li>
-                                    <li><a class="dropdown-item" href="../pages/clases.html#hechi">Hechicera</a></li>
-                                    <li><a class="dropdown-item" href="../pages/clases.html#ase">Asesina</a></li>
-                                    <li><a class="dropdown-item" href="../pages/clases.html#druid">Druida</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Mercenarios
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                    <li><a class="dropdown-item"
-                                            href="../pages/mercenarios.html#merc-caract">Caracteristicas</a></li>
-                                    <li><a class="dropdown-item" href="../pages/mercenarios.html#merc-act1">Acto 1</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="../pages/mercenarios.html#merc-act2">Acto 2</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="../pages/mercenarios.html#merc-act3">Acto 3</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="../pages/mercenarios.html#merc-act5">Acto 5</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="../pages/contacto.html">Contacto</a></li>
-                        </ul>
+            <!--barra de navegacion y menu hamburguesa-->
+            <div class="col-12">
+                <nav class="navbar navbar-expand-md animate__animated animate__backInLeft">
+                    <div class="col-12">
+                        <button type="button" class="navbar-toggler navbar-light sticky-top col-12" data-bs-toggle="collapse"
+                            data-bs-target="#MenuNavegacion">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div id="MenuNavegacion" class="collapse navbar-collapse text-center">
+                            <ul class="navbar-nav navbar-nav-scroll mx-auto d-flex aling-items-center justify-content-center"
+                                id="navbarScroll">
+                                <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Guia
+                                    </a>
+                                    <ul class="dropdown-menu text-center" aria-labelledby="navbarScrollingDropdown">
+                                        <li><a class="dropdown-item" href="../pages/guia.html#">Inicio</a></li>
+                                        <li><a class="dropdown-item" href="../pages/guia.html#acto1">Acto 1</a></li>
+                                        <li><a class="dropdown-item" href="../pages/guia.html#acto2">Acto 2</a></li>
+                                        <li><a class="dropdown-item" href="../pages/guia.html#acto3">Acto 3</a></li>
+                                        <li><a class="dropdown-item" href="../pages/guia.html#acto4">Acto 4</a></li>
+                                        <li><a class="dropdown-item" href="../pages/guia.html#acto5">Acto 5</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Clases
+                                    </a>
+                                    <ul class="dropdown-menu  text-center" aria-labelledby="navbarScrollingDropdown">
+                                        <li><a class="dropdown-item" href="../pages/clases.html#">Inicio</a></li>
+                                        <li><a class="dropdown-item" href="../pages/clases.html#barb">Barbaro</a></li>
+                                        <li><a class="dropdown-item" href="../pages/clases.html#nigro">Nigromante</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="../pages/clases.html#amaz">Amazona</a></li>
+                                        <li><a class="dropdown-item" href="../pages/clases.html#pala">Paladin</a></li>
+                                        <li><a class="dropdown-item" href="../pages/clases.html#hechi">Hechicera</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="../pages/clases.html#ase">Asesina</a></li>
+                                        <li><a class="dropdown-item" href="../pages/clases.html#druid">Druida</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Mercenarios
+                                    </a>
+                                    <ul class="dropdown-menu text-center" aria-labelledby="navbarScrollingDropdown">
+                                        <li><a class="dropdown-item"
+                                                href="../pages/mercenarios.html#merc-caract">Caracteristicas</a></li>
+                                        <li><a class="dropdown-item" href="../pages/mercenarios.html#merc-act1">Acto
+                                                1</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="../pages/mercenarios.html#merc-act2">Acto
+                                                2</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="../pages/mercenarios.html#merc-act3">Acto
+                                                3</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="../pages/mercenarios.html#merc-act5">Acto
+                                                5</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="../pages/contacto.html">Contacto</a></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </nav>
-        </div>
+                </nav>
+            </div>
+        </header>
 
         <div class="container">
             <main class="main-clases">
@@ -207,7 +213,8 @@
                         <!--barbaro historia-->
                         <h3>Historia</h3>
                         <hr>
-                        <p><img class="imagen-clases" src="../assets/media/barb.png" alt="">Se cuenta que cuando el
+                        <p><img class="imagen-clases" src="../assets/media/barbaro gift2.webp" alt="">Se cuenta que
+                            cuando el
                             mundo era aún muy
                             joven, se encomendó a las tribus de las Estepas del
                             Norte
@@ -283,11 +290,12 @@
                                     cadáver de un enemigo en busca de una poción.</li>
                                 <li class="col-12 listas-clases"><img src="../assets/media/barbhab3.webp"
                                         alt=""><b>Grito:</b> Aumenta la defensa del
-                                    Bárbaro y de sus aliados.</li>webp
+                                    Bárbaro y de sus aliados.</li>
                                 <li class="col-12 listas-clases"><img src="../assets/media/barbhab4.webp"
                                         alt=""><b>Burla: </b> Atrae a los enemigos
                                     hacia el Bárbaro.</li>
-                                <li class="col-12 listas-clases"><img src="../assets/media/barbhab5.webp" alt=""><b>Grito
+                                <li class="col-12 listas-clases"><img src="../assets/media/barbhab5.webp"
+                                        alt=""><b>Grito
                                         de Batalla: </b> Reduce la
                                     defensa y el daño de los enemigos cercanos.</li>
                                 <li class="col-12 listas-clases"><img src="../assets/media/barbhab6.webp"
@@ -303,7 +311,8 @@
                                     tótem que ahuyenta a los monstruos del cadáver de un
                                     enemigo.
                                 </li>
-                                <li class="col-12 listas-clases"><img src="../assets/media/barbhab9.webp" alt=""><b>Grito
+                                <li class="col-12 listas-clases"><img src="../assets/media/barbhab9.webp"
+                                        alt=""><b>Grito
                                         de Guerra:</b>Hace daño y
                                     aturde al enemigo.</li>
                                 <li class="col-12 listas-clases"><img src="../assets/media/barbhab10.webp"
@@ -351,7 +360,8 @@
                                 <li class="col-12 listas-clases"><img src="../assets/media/barbhab18.webp"
                                         alt=""><b>Velocidad Aumentada: </b>incrementa la velocidad de carrera del
                                     Bárbaro.</li>
-                                <li class="col-12 listas-clases"><img src="../assets/media/barbhab19.webp" alt=""><b>Piel
+                                <li class="col-12 listas-clases"><img src="../assets/media/barbhab19.webp"
+                                        alt=""><b>Piel
                                         de Hierro: </b>incrementa la defensa del Bárbaro.</li>
                                 <li class="col-12 listas-clases"><img src="../assets/media/barbhab20.webp"
                                         alt=""><b>Resistencia Natural: </b>incrementa las resistencias elementales del
@@ -432,7 +442,8 @@
                                     Conquistador, La Corona Guardiana.</li>
                             </ul>
                         </div>
-                        <a href="clases.html#class"> 🔼 </a>
+                        <a href="clases.html#class"><img src="../assets/media/orbe-mana-sin fondo.gif" alt=""
+                                width="50px"></a>
                     </article>
                 </section>
                 <!-- clase nigromante -->
@@ -492,7 +503,8 @@
                             que puede revivir esqueletos, resucitar muertos y crear Golems. </p>
                         <h3>Historia</h3>
                         <hr>
-                        <p><img class="imagen-clases" src="../assets/media/nigro.png" alt="">Tal y como cabría esperar,
+                        <p><img class="imagen-clases" src="../assets/media/Necromancer.webp" alt="">Tal y como cabría
+                            esperar,
                             los devotos
                             de la magia son un grupo segregado. Se muestran tan
                             suspicaces
@@ -728,7 +740,8 @@
                                     cráneo Señor de la Sangre.</li>
                             </ul>
                         </div>
-                        <a href="clases.html#class"> 🔼 </a>
+                        <a href="clases.html#class"><img src="../assets/media/orbe-mana-sin fondo.gif" alt=""
+                                width="50px"></a>
                 </section>
                 <!-- clase amazona -->
                 <section class="row">
@@ -788,7 +801,8 @@
                         <!--amazona historia -->
                         <h3>Historia</h3>
                         <hr>
-                        <p><img class="imagen-clases" src="../assets/media/amazona.png" alt="">Las amazonas son mujeres
+                        <p><img class="imagen-clases" src="../assets/media/Amazona gift.webp" alt="">Las amazonas son
+                            mujeres
                             guerreras que
                             provienen
                             de un grupo de islas de los Mares Gemelos,
@@ -1037,7 +1051,8 @@
                                     La jabalina matriarcal.</li>
                             </ul>
                         </div>
-                        <a href="clases.html#class"> 🔼 </a>
+                        <a href="clases.html#class"><img src="../assets/media/orbe-mana-sin fondo.gif" alt=""
+                                width="50px"></a>
                 </section>
                 <section class="row">
                     <article class="col-12 paladin">
@@ -1096,7 +1111,8 @@
                         <!-- paladin historia-->
                         <h3>Historia</h3>
                         <hr>
-                        <p><img class="imagen-clases" src="../assets/media/paladin.png" alt="">A mediados del siglo XII,
+                        <p><img class="imagen-clases" src="../assets/media/Paladin gift.webp" alt="">A mediados del
+                            siglo XII,
                             después de que la
                             Iglesia de Zakarum hubiera alcanzado una posición
                             prominente en el Este, la Iglesia decretó que las visiones de Akarat se difundieran por el
@@ -1350,7 +1366,8 @@
                                     escudo de Zakarum, El escudo vortice.</li>
                             </ul>
                         </div>
-                        <a href="clases.html#class"> 🔼 </a>
+                        <a href="clases.html#class"><img src="../assets/media/orbe-mana-sin fondo.gif" alt=""
+                                width="50px"></a>
                 </section>
                 <!-- clase hechicera-->
                 <section class="row">
@@ -1413,7 +1430,8 @@
                         <!-- hechicera historia-->
                         <h3>Historia</h3>
                         <hr>
-                        <p><img class="imagen-clases" src="../assets/media/hechicera.png" alt="">El clan de magas de
+                        <p><img class="imagen-clases" src="../assets/media/hechicera gift.gif" alt="">El clan de magas
+                            de
                             Zann Esu es uno de los
                             más
                             veteranos de los clanes antiguos, aunque poco se
@@ -1634,7 +1652,8 @@
                                     fragmento dimensional.</li>
                             </ul>
                         </div>
-                        <a href="clases.html#class"> 🔼 </a>
+                        <a href="clases.html#class"><img src="../assets/media/orbe-mana-sin fondo.gif" alt=""
+                                width="50px"></a>
                 </section>
                 <section class="row">
                     <article class="col-12 asesina">
@@ -1695,7 +1714,8 @@
                         <!-- asesina historia-->
                         <h3>Historia</h3>
                         <hr>
-                        <p><img class="imagen-clases" src="../assets/media/asesina.png" alt="">En el tercer siglo, dos
+                        <p><img class="imagen-clases" src="../assets/media/Assassin gift.webp" alt="">En el tercer
+                            siglo, dos
                             hermanos
                             pertenecientes a las filas del clan de magos Vizjerei llegaron
                             al
@@ -1907,7 +1927,8 @@
                                     Scissors Suwayyah.</li>
                             </ul>
                         </div>
-                        <a href="clases.html#class"> 🔼 </a>
+                        <a href="clases.html#class"><img src="../assets/media/orbe-mana-sin fondo.gif" alt=""
+                                width="50px"></a>
                 </section>
                 <!-- clase druida -->
                 <section class="row">
@@ -1971,7 +1992,8 @@
                         <!-- druida historia -->
                         <h3>Historia</h3>
                         <hr>
-                        <p><img class="imagen-clases" src="../assets/media/druida.png" alt="">En el antiguo tomo de los
+                        <p><img class="imagen-clases" src="../assets/media/druida gift.gif" alt="">En el antiguo tomo de
+                            los
                             druidas, el Scéal
                             Fada, está escrito que Bul-Kathos, el gran y antiguo
                             rey
@@ -2231,7 +2253,8 @@
                                     del Cielo, El Espíritu del Sueño.</li>
                             </ul>
                         </div>
-                        <a href="clases.html#class"> 🔼 </a>
+                        <a href="clases.html#class"><img src="../assets/media/orbe-mana-sin fondo.gif" alt=""
+                                width="50px"></a>
                 </section>
                 </ul>
             </main>

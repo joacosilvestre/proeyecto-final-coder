@@ -31,7 +31,7 @@ header {
         font-family: exorcet;
 
         a {
-            color: map-get($color, "hueso");
+            color: map-get($color, "negro");
             transition: all 500ms ease;
             border-bottom: 5px solid transparent;
 
@@ -43,12 +43,37 @@ header {
     }
 }
 
+.navbar-toggler {
+    &:focus {
+        box-shadow: none !important;
+    }
+}
+
+.nav-link {
+    &:focus {
+        color: map-get($color, "negro");
+    }
+}
+
+.nav-link {
+    &:hover {
+        color: map-get($color, "negro");
+    }
+}
+
 .dropdown-menu {
     text-decoration: none;
     background-image: url(../assets/media/fondosecciones.webp) !important;
+    border: none !important;
+
+    .dropdown-item {
+        color: map-get($color, "hueso");
+    }
+
 
     .dropdown-item:focus,
     .dropdown-item:hover {
+        color: map-get($color, "negro");
         background-color: transparent !important;
     }
 }

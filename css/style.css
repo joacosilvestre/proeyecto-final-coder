@@ -54,22 +54,40 @@ header .titulo-header {
   font-family: exorcet;
 }
 .navbar-nav li a {
-  color: #dee2e6;
+  color: black;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   border-bottom: 5px solid transparent;
 }
 .navbar-nav li a:hover {
-  color: #616161;
+  color: #dee2e6;
   border-bottom: 5px solid;
+}
+
+.navbar-toggler:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.nav-link:focus {
+  color: black;
+}
+
+.nav-link:hover {
+  color: black;
 }
 
 .dropdown-menu {
   text-decoration: none;
   background-image: url(../assets/media/fondosecciones.webp) !important;
+  border: none !important;
+}
+.dropdown-menu .dropdown-item {
+  color: #dee2e6;
 }
 .dropdown-menu .dropdown-item:focus,
 .dropdown-menu .dropdown-item:hover {
+  color: black;
   background-color: transparent !important;
 }
 
@@ -162,7 +180,7 @@ h4 {
   background-image: url(../assets/media/fondosecciones.webp);
 }
 .main-guia .ul-guia li a {
-  color: #616161;
+  color: #dee2e6;
   font-family: exorcet;
   text-decoration: none;
 }
@@ -217,7 +235,7 @@ h4 {
 .main-clases .inicio-clases .ul-clases li a {
   margin: 0 !important;
   padding: 0 !important;
-  color: #616161;
+  color: #dee2e6;
   font-family: exorcet;
   text-decoration: none;
 }
@@ -279,7 +297,7 @@ h4 {
   color: black;
 }
 .main-mercenarios .ul-mercenarios li a {
-  color: #616161;
+  color: #dee2e6;
   font-family: exorcet;
   text-decoration: none;
 }
@@ -332,7 +350,7 @@ footer .footer a {
   color: #dee2e6;
 }
 footer .footer a:hover {
-  color: #616161;
+  color: #dee2e6;
 }
 footer h3 {
   color: black;
